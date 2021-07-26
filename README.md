@@ -14,7 +14,9 @@ SIRモデルでは、全体人口を次の集団に分類し、時間に関す�
 - **I Infectious)**：感染により発病し、感染可能者(S)への伝染可能な者。感染者。
 - **R (Removed)** : 発病から回復し、免疫を獲得したもの。あるいは発病から回復できず死亡した者。（このモデルのシステムから排除されるため、Removedと呼ばれる。）
 
-<img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F208980%2F7c5e9859-7e6b-02db-696e-b3ce2e261c3c.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=90cf1c23da2db98d1b312d7df738d12c" width=40%>
+<div align="center">
+    <img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F208980%2F7c5e9859-7e6b-02db-696e-b3ce2e261c3c.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=90cf1c23da2db98d1b312d7df738d12c" width=40%>
+</div>
 
 各集団の人口増減は、次の微分方程式で表される。
 
